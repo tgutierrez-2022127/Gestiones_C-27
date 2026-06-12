@@ -1,0 +1,16 @@
+{
+  "name": "incidentes-c27",
+  "version": "1.0.0",
+  "description": "Sistema de incidentes salon C-27",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
